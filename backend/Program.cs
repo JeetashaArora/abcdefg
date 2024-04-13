@@ -18,6 +18,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddScoped<IArtifactDataAccess, ArtifactEF>();
+builder.Services.AddScoped<IArtStyleDataAccess, ArtStyleEF>();
+builder.Services.AddScoped<IExhibitionDataAccess, ExhibitionEF>();
 builder.Services.AddScoped<IArtistDataAccess, ArtistEF>();
 builder.Services.AddScoped<IArtfactDataAccess, ArtfactEF>();
 builder.Services.AddScoped<IArtgalleryDataAccess, ArtgalleryEF>();
