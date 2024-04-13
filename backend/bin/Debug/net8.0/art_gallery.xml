@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>art_gallery</name>
+    </assembly>
+    <members>
+        <member name="T:art_gallery.Controllers.ArtifactController">
+            <summary>
+            Controller for managing artifacts.
+            </summary>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtifactController.GetArtifacts">
+             <summary>
+             Retrieves all artifacts.
+             </summary>
+             <returns>All artifacts</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/artifacts
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtifactController.GetArtifact(System.Int32)">
+             <summary>
+             Retrieves a specific artifact by its ID.
+             </summary>
+             <param name="id">The ID of the artifact to retrieve</param>
+             <returns>The requested artifact</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/artifacts/1
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtifactController.AddArtifact(art_gallery.Models.Artifact)">
+             <summary>
+             Adds a new artifact.
+             </summary>
+             <param name="artifact">The artifact to add</param>
+             <returns>The newly added artifact</returns>
+             <remarks>
+             Sample request:
+            
+             POST /api/artifacts
+             {
+                 "id": 1,
+                 "name": "Mona Lisa",
+                 "image": "https://example.com/monalisa.jpg",
+                 "artist": "Leonardo da Vinci",
+                 "description": "A portrait painting by Leonardo da Vinci"
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtifactController.UpdateArtifact(System.Int32,art_gallery.Models.Artifact)">
+             <summary>
+             Updates an existing artifact.
+             </summary>
+             <param name="id">The ID of the artifact to update</param>
+             <param name="artifact">Updated information for the artifact</param>
+             <returns>No content</returns>
+             <remarks>
+             Sample request:
+            
+             PUT /api/artifacts/1
+             {
+                 "id": 1,
+                 "name": "Updated Mona Lisa",
+                 "image": "https://example.com/updated-monalisa.jpg",
+                 "artist": "Leonardo da Vinci",
+                 "description": "An updated description of Mona Lisa"
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtifactController.DeleteArtifact(System.Int32)">
+            <summary>
+            Deletes an artifact.
+            </summary>
+            <param name="id">The ID of the artifact to delete</param>
+            <returns>No content</returns>
+            <remarks>
+            Sample request:
+            
+            DELETE /api/artifacts/1
+            </remarks>
+        </member>
+        <member name="T:art_gallery.Controllers.ArtStyleController">
+            <summary>
+            Controller for managing art styles.
+            </summary>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtStyleController.GetArtStyles">
+             <summary>
+             Retrieves all art styles.
+             </summary>
+             <returns>All art styles</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/artstyles
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtStyleController.GetArtStyle(System.Int32)">
+             <summary>
+             Retrieves a specific art style by its ID.
+             </summary>
+             <param name="id">The ID of the art style to retrieve</param>
+             <returns>The requested art style</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/artstyles/1
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtStyleController.AddArtStyle(art_gallery.Models.ArtStyle)">
+             <summary>
+             Adds a new art style.
+             </summary>
+             <param name="artStyle">The art style to add</param>
+             <returns>The newly added art style</returns>
+             <remarks>
+             Sample request:
+            
+             POST /api/artstyles
+             {
+                 "name": "Impressionism",
+                 "description": "Art movement characterized by small, thin, yet visible brush strokes, open composition, emphasis on accurate depiction of light in its changing qualities, ordinary subject matter, inclusion of movement as a crucial element of human perception and experience, and unusual visual angles.",
+                 "image": "https://example.com/impressionism.jpg",
+                 "creator": "Claude Monet"
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtStyleController.UpdateArtStyle(System.Int32,art_gallery.Models.ArtStyle)">
+             <summary>
+             Updates an existing art style.
+             </summary>
+             <param name="id">The ID of the art style to update</param>
+             <param name="artStyle">Updated information for the art style</param>
+             <returns>No content</returns>
+             <remarks>
+             Sample request:
+            
+             PUT /api/artstyles/1
+             {
+                 "id": 1,
+                 "name": "Updated Impressionism",
+                 "description": "An updated description of Impressionism",
+                 "image": "https://example.com/updated-impressionism.jpg",
+                 "creator": "Claude Monet"
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtStyleController.DeleteArtStyle(System.Int32)">
+            <summary>
+            Deletes an art style.
+            </summary>
+            <param name="id">The ID of the art style to delete</param>
+            <returns>No content</returns>
+            <remarks>
+            Sample request:
+            
+            DELETE /api/artstyles/1
+            </remarks>
+        </member>
+        <member name="T:art_gallery.Controllers.ExhibitionController">
+            <summary>
+            Controller for managing exhibitions.
+            </summary>
+        </member>
+        <member name="M:art_gallery.Controllers.ExhibitionController.GetExhibitions">
+             <summary>
+             Retrieves all exhibitions.
+             </summary>
+             <returns>All exhibitions</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/exhibitions
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ExhibitionController.GetExhibition(System.Int32)">
+             <summary>
+             Retrieves a specific exhibition by its ID.
+             </summary>
+             <param name="id">The ID of the exhibition to retrieve</param>
+             <returns>The requested exhibition</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/exhibitions/1
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ExhibitionController.AddExhibition(art_gallery.Models.Exhibition)">
+             <summary>
+             Adds a new exhibition.
+             </summary>
+             <param name="exhibition">The exhibition to add</param>
+             <returns>The newly added exhibition</returns>
+             <remarks>
+             Sample request:
+            
+             POST /api/exhibitions
+             {
+                 "name": "Impressionist Masterpieces",
+                 "description": "A collection of Impressionist artworks from various artists.",
+                 "place": "Art Gallery",
+                 "date": "2024-05-01T00:00:00"
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ExhibitionController.UpdateExhibition(System.Int32,art_gallery.Models.Exhibition)">
+             <summary>
+             Updates an existing exhibition.
+             </summary>
+             <param name="id">The ID of the exhibition to update</param>
+             <param name="exhibition">Updated information for the exhibition</param>
+             <returns>No content</returns>
+             <remarks>
+             Sample request:
+            
+             PUT /api/exhibitions/1
+             {
+                 "id": 1,
+                 "name": "Updated Impressionist Masterpieces",
+                 "description": "An updated description of the Impressionist Masterpieces exhibition.",
+                 "place": "Art Gallery",
+                 "date": "2024-05-01T00:00:00"
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ExhibitionController.DeleteExhibition(System.Int32)">
+            <summary>
+            Deletes an exhibition.
+            </summary>
+            <param name="id">The ID of the exhibition to delete</param>
+            <returns>No content</returns>
+            <remarks>
+            Sample request:
+            
+            DELETE /api/exhibitions/1
+            </remarks>
+        </member>
+        <member name="T:art_gallery.Controllers.UserController">
+            <summary>
+            Controller for managing user accounts.
+            </summary>
+        </member>
+        <member name="M:art_gallery.Controllers.UserController.GetUsers">
+             <summary>
+             Retrieves all users.
+             </summary>
+             <returns>All users</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/users
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.UserController.GetUserById(System.Int32)">
+             <summary>
+             Retrieves a specific user by its ID.
+             </summary>
+             <param name="id">The ID of the user to retrieve</param>
+             <returns>The requested user</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/users/1
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.UserController.InsertUser(art_gallery.Models.User)">
+             <summary>
+             Adds a new user.
+             </summary>
+             <param name="user">The user to add</param>
+             <returns>The newly added user</returns>
+             <remarks>
+             Sample request:
+            
+             POST /api/users
+             {
+                 "firstName": "John",
+                 "lastName": "Doe",
+                 "description": "User description",
+                 "role": "User",
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.UserController.UpdateCredentials(System.Int32,art_gallery.Models.Login)">
+             <summary>
+             Updates the credentials of a user.
+             </summary>
+             <param name="id">The ID of the user to update</param>
+             <param name="login">Updated login credentials</param>
+             <returns>No content</returns>
+             <remarks>
+             Sample request:
+            
+             PATCH /api/users/1/credentials
+             {
+                 "email": "user@example.com",
+                 "password": "new_password"
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.UserController.DeleteUser(System.Int32)">
+            <summary>
+            Deletes a user.
+            </summary>
+            <param name="id">The ID of the user to delete</param>
+            <returns>No content</returns>
+            <remarks>
+            Sample request:
+            
+            DELETE /api/users/1
+            </remarks>
+        </member>
+    </members>
+</doc>

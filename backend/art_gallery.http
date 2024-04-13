@@ -1,0 +1,6 @@
+@art_gallery_HostAddress = https://localhost:5015
+
+GET {{art_gallery_HostAddress}}/
+Accept: application/json
+
+###
