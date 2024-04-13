@@ -285,6 +285,26 @@
              }
              </remarks>
         </member>
+        <member name="M:art_gallery.Controllers.UserController.UpdateUser(System.Int32,art_gallery.Models.User)">
+            <summary>
+            Updates an existing user.
+            </summary>
+            <param name="id">The ID of the user to update.</param>
+            <param name="updatedUser">The updated user information.</param>
+            <returns>No content</returns>
+            <remarks>
+            Sample request:
+            
+            PUT /api/users/1
+            {
+                "id": 1,
+                "firstName": "John",
+                "lastName": "Doe",
+                "description": "Updated description",
+                "role": "User"
+            }
+            </remarks>
+        </member>
         <member name="M:art_gallery.Controllers.UserController.UpdateCredentials(System.Int32,art_gallery.Models.Login)">
              <summary>
              Updates the credentials of a user.
