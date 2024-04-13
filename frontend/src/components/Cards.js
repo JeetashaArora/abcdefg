@@ -19,7 +19,7 @@ function Cards() {
               src='images/img2.jpg'
               text='The visionary souls who breathe life into canvases, capturing the essence of our world′s beauty and complexity'
               label='Artists'
-              path='/artifact-card'
+              path='/artist'
             />
             <CardItem
               src='images/img-3.jpeg'
@@ -32,6 +32,18 @@ function Cards() {
               text='Art is not what you see, but what you make others see'
               label='Exhibitions'
               path='/exhibition'
+            />
+            <CardItem
+              src='images/img5.jpg'
+              text='The purpose of art is washing the dust of daily life off our souls'
+              label='Art facts'
+              path='/art-fact'
+            />
+            <CardItem
+              src='images/img6.jpg'
+              text='The essence of all beautiful art, all great art, is gratitude.'
+              label='Art galleries'
+              path='/art-gallery'
             />
           </ul>
         </div>
