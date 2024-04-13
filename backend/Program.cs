@@ -13,7 +13,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
-
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddScoped<IArtifactDataAccess, ArtifactEF>();
@@ -40,7 +41,8 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/error");
 }
-
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseStaticFiles();
 
 app.UseRouting();
