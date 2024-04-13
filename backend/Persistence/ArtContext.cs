@@ -21,5 +21,8 @@ namespace art_gallery.Persistence
         public IMongoCollection<Exhibition> Exhibitions => _database.GetCollection<Exhibition>("Exhibitions");
         public IMongoCollection<ArtStyle> ArtStyles => _database.GetCollection<ArtStyle>("ArtStyles");
         public IMongoCollection<User> Users => _database.GetCollection<User>("Users");
+        public IMongoCollection<Artist> Artists => _database.GetCollection<Artist>("Artists");
+        public IMongoCollection<Artfact> Artfacts => _database.GetCollection<Artfact>("Artfacts");
+        public IMongoCollection<Artgallery> Artgalleries => _database.GetCollection<Artgallery>("Artgalleries");
     }
 }

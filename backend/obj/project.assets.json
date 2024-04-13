@@ -788,7 +788,7 @@
           }
         }
       },
-      "MongoDB.Bson/2.24.0": {
+      "MongoDB.Bson/2.25.0": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.5",
@@ -805,12 +805,12 @@
           }
         }
       },
-      "MongoDB.Driver/2.24.0": {
+      "MongoDB.Driver/2.25.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
-          "MongoDB.Bson": "2.24.0",
-          "MongoDB.Driver.Core": "2.24.0",
+          "MongoDB.Bson": "2.25.0",
+          "MongoDB.Driver.Core": "2.25.0",
           "MongoDB.Libmongocrypt": "1.8.2"
         },
         "compile": {
@@ -824,13 +824,13 @@
           }
         }
       },
-      "MongoDB.Driver.Core/2.24.0": {
+      "MongoDB.Driver.Core/2.25.0": {
         "type": "package",
         "dependencies": {
           "AWSSDK.SecurityToken": "3.7.100.14",
           "DnsClient": "1.6.1",
           "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
-          "MongoDB.Bson": "2.24.0",
+          "MongoDB.Bson": "2.25.0",
           "MongoDB.Libmongocrypt": "1.8.2",
           "SharpCompress": "0.30.1",
           "Snappier": "1.0.0",
@@ -2741,10 +2741,10 @@
         "version.txt"
       ]
     },
-    "MongoDB.Bson/2.24.0": {
-      "sha512": "n8CWaA4iTuoEQYv0+FSKNTX/hJozFQa5EgSILVNPhTGHcrbABHhpVrT1NwRRAAS6sUb8ZyhHmLPBa88LJemptA==",
+    "MongoDB.Bson/2.25.0": {
+      "sha512": "xQx/qtC2nu9oGiyNqAwfiDpUMweLi0nID677cyKykpwmj5AVMrnd//UwmcmuX95178DeY6rf7cjmA613TQXPiA==",
       "type": "package",
-      "path": "mongodb.bson/2.24.0",
+      "path": "mongodb.bson/2.25.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2755,15 +2755,15 @@
         "lib/netstandard2.0/MongoDB.Bson.xml",
         "lib/netstandard2.1/MongoDB.Bson.dll",
         "lib/netstandard2.1/MongoDB.Bson.xml",
-        "mongodb.bson.2.24.0.nupkg.sha512",
+        "mongodb.bson.2.25.0.nupkg.sha512",
         "mongodb.bson.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver/2.24.0": {
-      "sha512": "j1q11iMk3LN38ze6jgV1ATp+WKVVQbsGrhFkuOcHwRNtIk70TpLKjOD1Z3CCkyrzxCsUyhwk745tK2ASNOI4WA==",
+    "MongoDB.Driver/2.25.0": {
+      "sha512": "dMqnZTV6MuvoEI4yFtSvKJdAoN6NeyAEvG8aoxnrLIVd7bR84QxLgpsM1nhK17qkOcIx/IrpMIfrvp5iMnYGBg==",
       "type": "package",
-      "path": "mongodb.driver/2.24.0",
+      "path": "mongodb.driver/2.25.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2774,15 +2774,15 @@
         "lib/netstandard2.0/MongoDB.Driver.xml",
         "lib/netstandard2.1/MongoDB.Driver.dll",
         "lib/netstandard2.1/MongoDB.Driver.xml",
-        "mongodb.driver.2.24.0.nupkg.sha512",
+        "mongodb.driver.2.25.0.nupkg.sha512",
         "mongodb.driver.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver.Core/2.24.0": {
-      "sha512": "UW0yadpMPi9+MtLHy6onpol3D9tXMRg61P0ROnij+h35EOr0vt/nxvlPrDcUjl3SvttvpsEXQKxb2lQShBA1dA==",
+    "MongoDB.Driver.Core/2.25.0": {
+      "sha512": "oN4nLgO5HQEThTg/zqeoHqaO2+q64DBVb4r7BvhaFb0p0TM9jZKnCKvh1EA8d9E9swIz0CgvMrvL1mPyRCZzag==",
       "type": "package",
-      "path": "mongodb.driver.core/2.24.0",
+      "path": "mongodb.driver.core/2.25.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2794,7 +2794,7 @@
         "lib/netstandard2.0/MongoDB.Driver.Core.xml",
         "lib/netstandard2.1/MongoDB.Driver.Core.dll",
         "lib/netstandard2.1/MongoDB.Driver.Core.xml",
-        "mongodb.driver.core.2.24.0.nupkg.sha512",
+        "mongodb.driver.core.2.25.0.nupkg.sha512",
         "mongodb.driver.core.nuspec",
         "packageIcon.png"
       ]
@@ -3570,29 +3570,31 @@
       "Microsoft.AspNetCore.OpenApi >= 8.0.2",
       "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.4",
-      "MongoDB.Driver >= 2.24.0",
+      "MongoDB.Driver >= 2.25.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "/Users/tanay/.nuget/packages/": {}
+    "C:\\Users\\Jeetasha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery/backend/art_gallery.csproj",
+      "projectUniqueName": "E:\\New\\SIT331_Art_gallery\\backend\\art_gallery.csproj",
       "projectName": "art_gallery",
-      "projectPath": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery/backend/art_gallery.csproj",
-      "packagesPath": "/Users/tanay/.nuget/packages/",
-      "outputPath": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery/backend/obj/",
+      "projectPath": "E:\\New\\SIT331_Art_gallery\\backend\\art_gallery.csproj",
+      "packagesPath": "C:\\Users\\Jeetasha\\.nuget\\packages\\",
+      "outputPath": "E:\\New\\SIT331_Art_gallery\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/tanay/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Jeetasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3640,7 +3642,7 @@
           },
           "MongoDB.Driver": {
             "target": "Package",
-            "version": "[2.24.0, )"
+            "version": "[2.25.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -3666,7 +3668,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,6 +17,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddScoped<IArtifactDataAccess, ArtifactEF>();
+builder.Services.AddScoped<IArtistDataAccess, ArtistEF>();
+builder.Services.AddScoped<IArtfactDataAccess, ArtfactEF>();
+builder.Services.AddScoped<IArtgalleryDataAccess, ArtgalleryEF>();
 
 
 builder.Services.AddCors(options =>
