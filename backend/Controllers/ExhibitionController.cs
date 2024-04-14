@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using art_gallery.Models;
 using art_gallery.Persistence;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using System;
 
 namespace art_gallery.Controllers
@@ -31,6 +32,7 @@ namespace art_gallery.Controllers
         /// GET /api/exhibitions
         /// </remarks>
         [HttpGet]
+        [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public ActionResult<IEnumerable<Exhibition>> GetExhibitions()
         {
@@ -49,6 +51,7 @@ namespace art_gallery.Controllers
         /// GET /api/exhibitions/1
         /// </remarks>
         [HttpGet("{id}")]
+        [Authorize(Policy = "Artist")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Exhibition> GetExhibition(int id)
@@ -80,6 +83,7 @@ namespace art_gallery.Controllers
         /// }
         /// </remarks>
         [HttpPost]
+        [Authorize(Policy = "Curator")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         public ActionResult<Exhibition> AddExhibition([FromBody] Exhibition exhibition)
         {
@@ -106,6 +110,7 @@ namespace art_gallery.Controllers
         /// }
         /// </remarks>
         [HttpPut("{id}")]
+        [Authorize(Policy = "Artist")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -131,6 +136,7 @@ namespace art_gallery.Controllers
         /// DELETE /api/exhibitions/1
         /// </remarks>
         [HttpDelete("{id}")]
+        [Authorize(Policy = "Admin")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public IActionResult DeleteExhibition(int id)

@@ -4,6 +4,7 @@ using art_gallery.Models;
 using art_gallery.Persistence;
 using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Authorization;
 
 namespace art_gallery.Controllers
 {
@@ -31,6 +32,7 @@ namespace art_gallery.Controllers
         /// GET /api/artfacts
         /// </remarks>
         [HttpGet]
+        [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public ActionResult<IEnumerable<Artfact>> GetArtfacts()
         {
@@ -49,6 +51,7 @@ namespace art_gallery.Controllers
         /// GET /api/artfacts/1
         /// </remarks>
         [HttpGet("{id}")]
+        [Authorize(Policy = "Artist")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<Artfact> GetArtfact(int id)
@@ -79,6 +82,7 @@ namespace art_gallery.Controllers
         /// }
         /// </remarks>
         [HttpPost]
+        [Authorize(Policy = "Curator")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         public ActionResult<Artfact> AddArtfact([FromBody] Artfact artfact)
         {
@@ -104,6 +108,7 @@ namespace art_gallery.Controllers
         /// }
         /// </remarks>
         [HttpPut("{id}")]
+        [Authorize(Policy = "Artist")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -129,6 +134,7 @@ namespace art_gallery.Controllers
         /// DELETE /api/artfacts/1
         /// </remarks>
         [HttpDelete("{id}")]
+        [Authorize(Policy = "Admin")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public IActionResult DeleteArtfact(int id)

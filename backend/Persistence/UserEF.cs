@@ -22,6 +22,9 @@ namespace art_gallery.Persistence
 
         public void InsertUser(User user)
         {
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+            user.CreatedDate = DateTime.Now;
+            user.ModifiedDate = DateTime.Now;
             _context.Users.InsertOne(user);
         }
 

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\New\\SIT331_Art_gallery\\backend\\art_gallery.csproj": {}
+    "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/art_gallery.csproj": {}
   },
   "projects": {
-    "E:\\New\\SIT331_Art_gallery\\backend\\art_gallery.csproj": {
+    "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/art_gallery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\New\\SIT331_Art_gallery\\backend\\art_gallery.csproj",
+        "projectUniqueName": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/art_gallery.csproj",
         "projectName": "art_gallery",
-        "projectPath": "E:\\New\\SIT331_Art_gallery\\backend\\art_gallery.csproj",
-        "packagesPath": "C:\\Users\\Jeetasha\\.nuget\\packages\\",
-        "outputPath": "E:\\New\\SIT331_Art_gallery\\backend\\obj\\",
+        "projectPath": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/art_gallery.csproj",
+        "packagesPath": "/Users/tanay/.nuget/packages/",
+        "outputPath": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jeetasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/tanay/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
