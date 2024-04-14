@@ -4,6 +4,122 @@
         <name>art_gallery</name>
     </assembly>
     <members>
+        <member name="T:art_gallery.Controllers.ArtfactController">
+            <summary>
+            Controller for managing art facts.
+            </summary>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtfactController.GetArtfacts">
+             <summary>
+             Retrieves all art facts.
+             </summary>
+             <returns>All art facts</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/artfacts
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtfactController.GetArtfact(System.Int32)">
+             <summary>
+             Retrieves a specific art fact by its ID.
+             </summary>
+             <param name="id">The ID of the art fact to retrieve</param>
+             <returns>The requested art fact</returns>
+             <remarks>
+             Sample request:
+            
+             GET /api/artfacts/1
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtfactController.AddArtfact(art_gallery.Models.Artfact)">
+             <summary>
+             Adds a new art fact.
+             </summary>
+             <param name="artfact">The art fact to add</param>
+             <returns>The newly added art fact</returns>
+             <remarks>
+             Sample request:
+            
+             POST /api/artfacts
+             {
+                 "year": "2003-09-17T00:00:00",
+                 "image": "https://example.com/image5.jpg",
+                 "description": "Claude Monet's 'Water Lilies' series captures the beauty of his flower garden at his home in Giverny, France, with its serene ponds and floating lilies."
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtfactController.UpdateArtfact(System.Int32,art_gallery.Models.Artfact)">
+             <summary>
+             Updates an existing art fact.
+             </summary>
+             <param name="id">The ID of the art fact to update</param>
+             <param name="artfact">Updated information for the art fact</param>
+             <returns>No content</returns>
+             <remarks>
+             Sample request:
+            
+             PUT /api/artfacts/1
+             {
+                 "id": 1,
+                 "year": "2003-09-17T00:00:00",
+                 "image": "https://example.com/updated-image.jpg",
+                 "description": "An updated description of the art fact"
+             }
+             </remarks>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtfactController.DeleteArtfact(System.Int32)">
+            <summary>
+            Deletes an art fact.
+            </summary>
+            <param name="id">The ID of the art fact to delete</param>
+            <returns>No content</returns>
+            <remarks>
+            Sample request:
+            
+            DELETE /api/artfacts/1
+            </remarks>
+        </member>
+        <member name="T:art_gallery.Controllers.ArtgalleryController">
+            <summary>
+            Controller for managing art galleries.
+            </summary>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtgalleryController.GetArtgalleries">
+            <summary>
+            Retrieves all art galleries.
+            </summary>
+            <returns>A list of all art galleries</returns>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtgalleryController.GetArtgallery(System.Int32)">
+            <summary>
+            Retrieves an art gallery by its ID.
+            </summary>
+            <param name="id">The ID of the art gallery to retrieve</param>
+            <returns>The art gallery with the specified ID</returns>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtgalleryController.AddArtgallery(art_gallery.Models.Artgallery)">
+            <summary>
+            Adds a new art gallery.
+            </summary>
+            <param name="artgallery">The art gallery to add</param>
+            <returns>The newly added art gallery</returns>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtgalleryController.UpdateArtgallery(System.Int32,art_gallery.Models.Artgallery)">
+            <summary>
+            Updates an existing art gallery.
+            </summary>
+            <param name="id">The ID of the art gallery to update</param>
+            <param name="artgallery">Updated information for the art gallery</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtgalleryController.DeleteArtgallery(System.Int32)">
+            <summary>
+            Deletes an art gallery.
+            </summary>
+            <param name="id">The ID of the art gallery to delete</param>
+            <returns>No content</returns>
+        </member>
         <member name="T:art_gallery.Controllers.ArtifactController">
             <summary>
             Controller for managing artifacts.
@@ -82,6 +198,46 @@
             
             DELETE /api/artifacts/1
             </remarks>
+        </member>
+        <member name="T:art_gallery.Controllers.ArtistController">
+            <summary>
+            Controller for managing artists.
+            </summary>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtistController.GetArtists">
+            <summary>
+            Retrieves all artists.
+            </summary>
+            <returns>A list of all artists</returns>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtistController.GetArtist(System.Int32)">
+            <summary>
+            Retrieves an artist by its ID.
+            </summary>
+            <param name="id">The ID of the artist to retrieve</param>
+            <returns>The artist with the specified ID</returns>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtistController.AddArtist(art_gallery.Models.Artist)">
+            <summary>
+            Adds a new artist.
+            </summary>
+            <param name="artist">The artist to add</param>
+            <returns>The newly added artist</returns>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtistController.UpdateArtist(System.Int32,art_gallery.Models.Artist)">
+            <summary>
+            Updates an existing artist.
+            </summary>
+            <param name="id">The ID of the artist to update</param>
+            <param name="artist">Updated information for the artist</param>
+            <returns>No content</returns>
+        </member>
+        <member name="M:art_gallery.Controllers.ArtistController.DeleteArtist(System.Int32)">
+            <summary>
+            Deletes an artist.
+            </summary>
+            <param name="id">The ID of the artist to delete</param>
+            <returns>No content</returns>
         </member>
         <member name="T:art_gallery.Controllers.ArtStyleController">
             <summary>
