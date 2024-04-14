@@ -1,67 +1,67 @@
 {
   "Files": [
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/images/deakin-logo.png",
-      "PackagePath": "staticwebassets/images/deakin-logo.png"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\images\\deakin-logo.png",
+      "PackagePath": "staticwebassets\\images\\deakin-logo.png"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/robot.css",
-      "PackagePath": "staticwebassets/styles/robot.css"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\robot.css",
+      "PackagePath": "staticwebassets\\styles\\robot.css"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-feeling-blue.css",
-      "PackagePath": "staticwebassets/styles/theme-feeling-blue.css"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-feeling-blue.css",
+      "PackagePath": "staticwebassets\\styles\\theme-feeling-blue.css"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-flattop.css",
-      "PackagePath": "staticwebassets/styles/theme-flattop.css"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-flattop.css",
+      "PackagePath": "staticwebassets\\styles\\theme-flattop.css"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-material.css",
-      "PackagePath": "staticwebassets/styles/theme-material.css"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-material.css",
+      "PackagePath": "staticwebassets\\styles\\theme-material.css"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-monokai.css",
-      "PackagePath": "staticwebassets/styles/theme-monokai.css"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-monokai.css",
+      "PackagePath": "staticwebassets\\styles\\theme-monokai.css"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-muted.css",
-      "PackagePath": "staticwebassets/styles/theme-muted.css"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-muted.css",
+      "PackagePath": "staticwebassets\\styles\\theme-muted.css"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-newspaper.css",
-      "PackagePath": "staticwebassets/styles/theme-newspaper.css"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-newspaper.css",
+      "PackagePath": "staticwebassets\\styles\\theme-newspaper.css"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-outline.css",
-      "PackagePath": "staticwebassets/styles/theme-outline.css"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-outline.css",
+      "PackagePath": "staticwebassets\\styles\\theme-outline.css"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/swagger/favicon-16x16.png",
-      "PackagePath": "staticwebassets/swagger/favicon-16x16.png"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\swagger\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\swagger\\favicon-16x16.png"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/swagger/favicon-32x32.png",
-      "PackagePath": "staticwebassets/swagger/favicon-32x32.png"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\swagger\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\swagger\\favicon-32x32.png"
     },
     {
-      "Id": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/swagger/favicon.ico",
-      "PackagePath": "staticwebassets/swagger/favicon.ico"
+      "Id": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\swagger\\favicon.ico",
+      "PackagePath": "staticwebassets\\swagger\\favicon.ico"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.art_gallery.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.art_gallery.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.art_gallery.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.art_gallery.props",
       "PackagePath": "build\\art_gallery.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.art_gallery.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.art_gallery.props",
       "PackagePath": "buildMultiTargeting\\art_gallery.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.art_gallery.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.art_gallery.props",
       "PackagePath": "buildTransitive\\art_gallery.props"
     }
   ],

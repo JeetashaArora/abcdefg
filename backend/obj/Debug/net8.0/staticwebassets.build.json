@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qZf9e24Os8FZXzWDgfqZcs92FRJ8qU2t3lcSn0SE2DY=",
+  "Hash": "+qXS0Ew7XnAA3BNETgjMG2/q+XPjRv77notRvz7IbcE=",
   "Source": "art_gallery",
   "BasePath": "_content/art_gallery",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "art_gallery/wwwroot",
+      "Name": "art_gallery\\wwwroot",
       "Source": "art_gallery",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/images/deakin-logo.png",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\images\\deakin-logo.png",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "images/deakin-logo.png",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/deakin-logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\deakin-logo.png"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/robot.css",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\robot.css",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "styles/robot.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/styles/robot.css"
+      "OriginalItemSpec": "wwwroot\\styles\\robot.css"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-feeling-blue.css",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-feeling-blue.css",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "styles/theme-feeling-blue.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/styles/theme-feeling-blue.css"
+      "OriginalItemSpec": "wwwroot\\styles\\theme-feeling-blue.css"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-flattop.css",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-flattop.css",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "styles/theme-flattop.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/styles/theme-flattop.css"
+      "OriginalItemSpec": "wwwroot\\styles\\theme-flattop.css"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-material.css",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-material.css",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "styles/theme-material.css",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/styles/theme-material.css"
+      "OriginalItemSpec": "wwwroot\\styles\\theme-material.css"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-monokai.css",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-monokai.css",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "styles/theme-monokai.css",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/styles/theme-monokai.css"
+      "OriginalItemSpec": "wwwroot\\styles\\theme-monokai.css"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-muted.css",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-muted.css",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "styles/theme-muted.css",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/styles/theme-muted.css"
+      "OriginalItemSpec": "wwwroot\\styles\\theme-muted.css"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-newspaper.css",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-newspaper.css",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "styles/theme-newspaper.css",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/styles/theme-newspaper.css"
+      "OriginalItemSpec": "wwwroot\\styles\\theme-newspaper.css"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/styles/theme-outline.css",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\styles\\theme-outline.css",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "styles/theme-outline.css",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/styles/theme-outline.css"
+      "OriginalItemSpec": "wwwroot\\styles\\theme-outline.css"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/swagger/favicon-16x16.png",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\swagger\\favicon-16x16.png",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "swagger/favicon-16x16.png",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/swagger/favicon-16x16.png"
+      "OriginalItemSpec": "wwwroot\\swagger\\favicon-16x16.png"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/swagger/favicon-32x32.png",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\swagger\\favicon-32x32.png",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "swagger/favicon-32x32.png",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/swagger/favicon-32x32.png"
+      "OriginalItemSpec": "wwwroot\\swagger\\favicon-32x32.png"
     },
     {
-      "Identity": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/swagger/favicon.ico",
+      "Identity": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\swagger\\favicon.ico",
       "SourceId": "art_gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/tanay/Documents/Project_Docker/Final_Project/Art_Gallery_Github/SIT331_Art_gallery/backend/wwwroot/",
+      "ContentRoot": "E:\\New\\SIT331_Art_gallery\\backend\\wwwroot\\",
       "BasePath": "_content/art_gallery",
       "RelativePath": "swagger/favicon.ico",
       "AssetKind": "All",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/swagger/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\swagger\\favicon.ico"
     }
   ]
 }

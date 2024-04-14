@@ -62,8 +62,8 @@ function ArtgalleryList() {
                                 <img src={artgallery.imageUrl} alt={artgallery.name} className="cards__item__img" />
                             </div>
                             <div className="cards__item__info">
+                                <p>Name: {artgallery.name}</p>
                                 <p>Place: {artgallery.place}</p>
-                                <p>Date: {new Date(artgallery.date).toLocaleDateString()}</p>
                                 <p>Description: {artgallery.description}</p>
                             </div>
                         </div>
